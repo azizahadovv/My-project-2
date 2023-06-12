@@ -1,0 +1,146 @@
+.nimadir-box {
+       width: 100%;
+       height: auto;
+       /* margin: 0 auto; */
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-content: center;
+       justify-content: space-between;
+}
+
+.card {
+       width: 344px;
+       height: 435px;
+
+       background: #ffffff;
+       border: 1px solid rgba(0, 0, 0, 0.05);
+       border-radius: 8px;
+       padding: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-content: center;
+       justify-content: space-around;
+}
+.card .card-heder {
+       width: 100%;
+       height: 55px;
+}
+.card .card-heder h1 {
+       width: 100%;
+       height: 26px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 130%;
+
+       /* or 21px */
+       display: flex;
+       align-items: center;
+
+       /* font color */
+       color: #1a1d1f;
+}
+.card .card-heder p {
+       width: 100%;
+       height: 26px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 130%;
+       /* or 16px */
+       display: flex;
+       align-items: center;
+       /* font color */
+       color: #1a1d1f;
+}
+
+.card .tegirma {
+       height: 240px;
+       border-radius: 8px;
+}
+.card h2 {
+       width: 100%;
+       height: 55px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 15px;
+       line-height: 130%;
+
+       /* or 19px */
+       display: flex;
+       align-items: center;
+       border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+       padding-bottom: 10px;
+       color: #1a1d1f;
+}
+
+.card .sect-1 {
+       width: 100%;
+       height: 40px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       align-content: center;
+}
+.card .sect-1 p:nth-child(1) {
+       height: 18px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 130%;
+
+       /* or 18px */
+       display: flex;
+       align-items: center;
+
+       /* font color */
+       color: #1a1d1f;
+
+       opacity: 0.6;
+}
+.card .sect-1 p:nth-child(2) {
+       width: 60px;
+       height: 33px;
+       border-radius: 16.5px 0px 0px 16.5px;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       align-items: center;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 700;
+       font-size: 14px;
+       line-height: 130%;
+       background: #28c25d;
+
+       /* or 18px */
+       display: flex;
+       align-items: center;
+       text-align: right;
+
+       color: #ffffff;
+}
+.My-cont-sw-2 {
+       display: none;
+}
+
+@media only screen and (max-width: 770px) {
+       .My-cont-sw-1 {
+              display: none;
+       }
+       .My-cont-sw-2 {
+              display: block;
+       }
+}

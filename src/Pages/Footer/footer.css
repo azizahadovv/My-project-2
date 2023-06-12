@@ -1,0 +1,514 @@
+.father-div {
+       width: 100%;
+       height: 500px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+}
+.father-div .top-tables {
+       width: 100%;
+       height: 18%;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       flex-direction: column;
+       margin: 20px 0;
+}
+.father-div .top-tables b {
+       width: 100%;
+       height: 42px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 32px;
+       line-height: 130%;
+
+       /* identical to box height, or 42px */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+
+       /* font color */
+       color: #1a1d1f;
+}
+
+.buttons-div {
+       width: 100%;
+       height: 40px;
+       display: flex;
+       align-items: center;
+       align-content: flex-end;
+       justify-content: flex-end;
+}
+
+.father-div .top-tables button {
+       width: 180px;
+       height: 40px;
+       padding: 10px;
+       background: #ffffff;
+       border: 1px solid #efefef;
+       border-radius: 17.5px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 12px;
+       text-align: center;
+       letter-spacing: -0.03em;
+
+       /* font color */
+       color: #1a1d1f;
+}
+
+.table .heder {
+       width: 100%;
+       height: 75px;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: space-around;
+       gap: 20px;
+       background: #f4f4f4;
+       border-radius: 6px 6px 0px 0px;
+}
+
+.tbody {
+       width: 100%;
+       height: 400px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-content: center;
+       justify-content: space-around;
+       gap: 20px;
+}
+
+.card-tbd {
+       width: 100%;
+       height: 90px;
+       border-bottom: 1px solid rgb(221, 210, 210);
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: space-around;
+       gap: 20px;
+}
+.table .heder p:nth-child(1) {
+       width: 250px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 130%;
+
+       /* or 16px */
+       display: flex;
+       align-items: center;
+
+       color: #1a1d1f;
+}
+
+.table .heder p:nth-child(2),
+.table .heder p:nth-child(3),
+.table .heder p:nth-child(4) {
+       width: 130px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 130%;
+
+       /* or 16px */
+       display: flex;
+       align-items: center;
+
+       color: #1a1d1f;
+}
+
+.table .heder p:nth-child(5),
+.table .heder p:nth-child(6) {
+       width: 100px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 130%;
+
+       /* or 16px */
+       display: flex;
+       align-items: center;
+
+       color: #1a1d1f;
+}
+
+.tbd-lf {
+       width: 220px;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       gap: 10px;
+}
+.tbd-lf img {
+       width: 55px;
+       height: 55px;
+}
+.tbd-lf h1 {
+       width: 80%;
+       height: 35px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 300;
+       /* or 21px */
+       display: flex;
+       align-items: center;
+       font-size: 12px;
+       line-height: 151%;
+       letter-spacing: 0.065em;
+
+       color: #1a1d1f;
+}
+
+.tbd-lf-2 {
+       box-sizing: border-box;
+
+       width: 101px;
+       height: 30px;
+       border: 1px solid #fffdf7;
+       background: #fffdf7;
+       border-radius: 17.5px;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+}
+.tbd-lf-2 button {
+       box-sizing: border-box;
+       width: 100%;
+       height: 30px;
+       border: 1px solid #e8a600;
+       background: #fffdf7;
+       border-radius: 17.5px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 10px;
+       line-height: 12px;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       color: #e8a600;
+}
+.tbd-lf-3 {
+       width: 92px;
+       height: 18px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 130%;
+
+       /* or 18px */
+       display: flex;
+       align-items: center;
+
+       /* font color */
+       color: #1a1d1f;
+
+       opacity: 0.5;
+}
+.tbd-lf-4 {
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 130%;
+
+       /* or 18px */
+       display: flex;
+       align-items: center;
+       text-align: center;
+
+       /* font color */
+       color: #1a1d1f;
+
+       opacity: 0.5;
+}
+.tbd-lf-5 {
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 130%;
+
+       /* or 18px */
+       display: flex;
+       align-items: center;
+       text-align: center;
+       text-decoration-line: underline;
+
+       /* brand color */
+       color: #4c7ab6;
+}
+.tbd-lf-5:hover {
+       color: #2a85ff;
+}
+.tbd-lf-6 {
+       box-sizing: border-box;
+       cursor: pointer;
+       width: 127px;
+       height: 45px;
+
+       background: rgba(42, 133, 255, 0.05);
+       display: flex;
+       align-items: center;
+       text-align: center;
+       align-content: center;
+       justify-content: center;
+       /* brand color */
+       border: 1px solid #2a85ff;
+       border-radius: 4px;
+}
+
+.tbd-lf-6 button {
+       border: none;
+       background: rgba(42, 133, 255, 0.05);
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 130%;
+
+       /* identical to box height, or 16px */
+       display: flex;
+       align-items: center;
+       text-align: center;
+       align-content: center;
+       justify-content: center;
+       gap: 8px;
+
+       /* brand color */
+       color: #2a85ff;
+}
+
+/* 
+*************************************************************
+
+*/
+
+.show-media-table {
+       display: none;
+}
+
+@media screen and (max-width: 770px) {
+       .table {
+              display: none;
+       }
+       /* ********************************************************* */
+
+       .father-div .top-tables {
+              width: 100%;
+              height: 18%;
+              display: flex;
+              align-items: center;
+              align-content: center;
+              flex-direction: column;
+              margin: 20px 0;
+       }
+       .father-div .top-tables b {
+              width: 100%;
+              height: 42px;
+
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 28px;
+              line-height: 150%;
+
+              /* identical to box height, or 42px */
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+
+              /* font color */
+              color: #1a1d1f;
+       }
+       .buttons-div {
+              margin: 20px 0;
+              width: 100%;
+              height: 35px;
+              display: flex;
+              align-items: center;
+              align-content: center;
+              justify-content: center;
+       }
+
+       .father-div .top-tables button {
+              width: 180px;
+              height: 35px;
+              padding: 10px;
+              background: #ffffff;
+              border: 1px solid #efefef;
+              border-radius: 17.5px;
+
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 12px;
+              text-align: center;
+              letter-spacing: -0.03em;
+
+              /* font color */
+              color: #1a1d1f;
+       }
+
+       /* ////////////////////////////////////////////////////////////////////////////////// */
+       .show-media-table {
+              width: 100%;
+              min-height: 500px;
+              display: flex;
+              align-items: center;
+              align-content: center;
+              justify-content: center;
+       }
+
+       .card-tbd-show {
+              box-sizing: border-box;
+              width: 328px;
+              height: 445px;
+              background: #ffffff;
+              box-shadow: 19.8113px 15.0943px 75.4717px rgba(17, 8, 70, 0.04);
+              border-radius: 7.54717px;
+              padding: 10px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              align-content: center;
+              justify-content: space-between;
+       }
+
+       .tbd-lf-show {
+              width: 100%;
+              height: 60%;
+       }
+       .tbd-lf-show img {
+              width: 100%;
+       }
+       .tbd-lf-show h1 {
+              width: 200px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 150%;
+
+              /* or 18px */
+              display: flex;
+              align-items: center;
+
+              /* font color */
+              color: #1a1d1f;
+       }
+       .tbd-lf-3-show {
+              width: 100%;
+              height: 15%;
+              display: flex;
+              align-items: center;
+              align-content: center;
+              justify-content: space-between;
+              border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+              border-top: 1px solid rgba(0, 0, 0, 0.05);
+       }
+
+       .tbd-lf-3-show span {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 130%;
+
+              /* identical to box height, or 13px */
+              display: flex;
+              align-items: center;
+              text-align: center;
+
+              /* font color */
+              color: #1a1d1f;
+
+              opacity: 0.5;
+       }
+       .tbd-lf-3-show button {
+              background: #fffbf3;
+              border-radius: 17.5px;
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 12px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+       }
+
+       .tbd-lf-3-show a {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 130%;
+
+              display: flex;
+              align-items: center;
+              text-align: center;
+              text-decoration-line: underline;
+
+              /* brand color */
+              color: #2a85ff;
+       }
+
+       .tbd-lf-6-show {
+              width: 100%;
+              height: 48px;
+              box-sizing: border-box;
+              cursor: pointer;
+
+              background: rgba(42, 133, 255, 0.05);
+              display: flex;
+              align-items: center;
+              text-align: center;
+              align-content: center;
+              justify-content: center;
+              /* brand color */
+              border: 1px solid #2a85ff;
+              border-radius: 4px;
+       }
+
+       .tbd-lf-6-show button {
+              width: 100%;
+              height: 100%;
+              border: none;
+              background: rgba(42, 133, 255, 0.05);
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 130%;
+
+              /* identical to box height, or 16px */
+              display: flex;
+              align-items: center;
+              text-align: center;
+              align-content: center;
+              justify-content: center;
+              gap: 8px;
+
+              /* brand color */
+              color: #2a85ff;
+       }
+}
